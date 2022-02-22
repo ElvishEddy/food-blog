@@ -1,9 +1,6 @@
-@import "./abstracts/all";
+@use "components/button";
+@use "abstracts/variables";
 
-.container {
-  @include flexCenter;
-}
-
-h1 {
-  color: $lightblue;
+body {
+  color: variables.$lightblue;
 }
