@@ -1,0 +1,9 @@
+@import "./abstracts/all";
+
+.container {
+  @include flexCenter;
+}
+
+h1 {
+  color: $lightblue;
+}
