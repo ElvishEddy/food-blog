@@ -1,0 +1,8 @@
+@mixin flex {
+  display: flex;
+  @content;
+}
+
+@mixin marginAuto {
+  margin: 0 auto;
+}

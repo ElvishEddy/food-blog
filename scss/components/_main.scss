@@ -1,0 +1,81 @@
+@use "../abstracts" as *;
+@use "../core" as *;
+
+#main {
+  top: 0;
+  padding: 8px 16px;
+  margin: 100px 0 0 0;
+  .row {
+    @include flex;
+    padding: 16px 0;
+    &__center {
+      text-align: center;
+      padding: 32px 0;
+    }
+  }
+  .active {
+    background-color: $black;
+    color: $white;
+  }
+  a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: $black;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+
+  .food-info {
+    width: 24.999%;
+    padding: 0 8px;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: $font-size;
+    font-weight: 300;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 1.5;
+  }
+  p {
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  }
+
+  .about {
+    padding: 32px 16px;
+    text-align: center;
+
+    img {
+      width: 800px;
+      height: auto;
+    }
+  }
+
+  .description {
+    padding: 32px 0;
+    h4 {
+      font-size: 1.25rem;
+      margin: 10px 0;
+      font-weight: 550;
+    }
+    h6 {
+      font-size: 1rem;
+      margin: 10px 0;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+}

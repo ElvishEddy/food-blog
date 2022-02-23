@@ -1,0 +1,24 @@
+@use "../abstracts" as *;
+@use "../core" as *;
+
+#header {
+  @include flex;
+  background-color: $white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 68px;
+  font-size: $font-size;
+  top: 0;
+  position: fixed;
+  width: 1200px;
+
+  .menu-bars {
+    padding: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}

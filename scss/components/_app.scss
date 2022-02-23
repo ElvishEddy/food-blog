@@ -1,0 +1,6 @@
+@use "../abstracts" as *;
+
+.app {
+  @include marginAuto;
+  max-width: 1200px;
+}

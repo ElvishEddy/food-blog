@@ -1,9 +1,187 @@
-.button {
-  color: lightblue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
 body {
-  color: lightblue;
+  font-family: "Karma", sans-serif;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#header {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 68px;
+  font-size: 1.5rem;
+  top: 0;
+  position: fixed;
+  width: 1200px;
+}
+#header .menu-bars {
+  padding: 16px;
+  cursor: pointer;
+}
+#header .menu-bars:hover {
+  background-color: #ccc;
+}
+
+#main {
+  top: 0;
+  padding: 8px 16px;
+  margin: 100px 0 0 0;
+}
+#main .row {
+  display: flex;
+  padding: 16px 0;
+}
+#main .row__center {
+  text-align: center;
+  padding: 32px 0;
+}
+#main .active {
+  background-color: #000;
+  color: #fff;
+}
+#main a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+}
+#main a:hover {
+  background-color: #000;
+  color: #fff;
+}
+#main .food-info {
+  width: 24.999%;
+  padding: 0 8px;
+}
+#main img {
+  width: 100%;
+}
+#main h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 1.5;
+}
+#main p {
+  margin: 15px 0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+#main hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+#main .about {
+  padding: 32px 16px;
+  text-align: center;
+}
+#main .about img {
+  width: 800px;
+  height: auto;
+}
+#main .description {
+  padding: 32px 0;
+}
+#main .description h4 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  font-weight: 550;
+}
+#main .description h6 {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#footer {
+  display: flex;
+  padding: 32px 16px;
+}
+#footer .footer__content {
+  width: 33.3333333333%;
+  padding: 0 8px;
+}
+#footer h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: 300;
+  line-height: 1.5;
+}
+#footer p {
+  margin: 13px 0;
+  font-weight: 300;
+  line-height: 1.4;
+}
+#footer ul {
+  list-style: none;
+}
+#footer li {
+  padding: 16px;
+  display: flex;
+}
+#footer li:first-child {
+  border-bottom: 1px solid #eee;
+}
+#footer li:hover {
+  background-color: #ccc;
+}
+#footer li p {
+  margin: 0;
+  font-size: 13px;
+}
+#footer li p:first-child {
+  font-size: 15px;
+}
+#footer li img {
+  width: 50px;
+  margin-right: 15px;
+}
+#footer .tags {
+  margin: 15px 0;
+}
+#footer .tags span {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 2px 8px;
+  margin-bottom: 16px;
+  background-color: #666;
+  color: #fff;
+}
+#footer .tags span:first-child {
+  background-color: #000;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
